@@ -17,6 +17,6 @@ I don't find how to download all my ".fit" files of my Garmin activities. I writ
 1. Create the folder "GarminConnect"
 2. Run the script "download-links.sh"
 3. The links to the unsaved activities are located to "missing.txt"
-4. Open every link in "missing.txt" and save the activity (.fit, .gpx, etc.) to "GarminConnect"
-5. Run again the script "download-links.sh" to check the missing activity files
-6. Read the file "missing.txt" to click on activity links or execute "firefox.sh" to open the 10 last activity links
+4. Open every link in "missing.txt" or execute "firefox.sh" to open the 10 last activity links
+5. Save the activity file (.fit, .gpx, etc.) to the folder "GarminConnect" (on the right, click on the wheel > export...)
+6. Run again the script "download-links.sh" to check the missing activity files
